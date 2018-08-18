@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.slider{
+    max-width: 500px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.slider .owl-dots{
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.slider .owl-dots .owl-dot{
+    width: 15px;
+    height: 15px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.slider .owl-dots .owl-dot.active{
+    border: 1px solid orangered;
+}
+
+.slider .owl-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 250px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.slider .owl-nav span {
+    padding: 10px 15px;
+    background: rgb(000, 000, 000, 0.6);
+    border-radius: 5px;
+}
